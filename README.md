@@ -26,20 +26,17 @@ REPORT
 The toy robot must not fall off the table during movement. This also includes the initial placement of the toy robot.
 Any move that would cause the robot to fall must be ignored.
 Example Input and Output:
-a)
-Input:
+a) Input:
 PLACE 0,0,NORTH
 MOVE
 REPORT
 Output: 0,1,NORTH
-b)
-Input:
+b) Input:
 PLACE 0,0,NORTH
 LEFT
 REPORT
 Output: 0,0,WEST
-c)
-Input:
+c) Input:
 PLACE 1,2,EAST
 MOVE
 MOVE
@@ -49,9 +46,6 @@ REPORT
 Output: 3,3,NORTH
 
 # Starting the Application
-
-To start the application, run 'npm start'.
-
-To test application, run 'npm test'.
-
-Test includes a general test using the example inputs listed above.
+- To start the application, run 'npm start'.
+- To test application, run 'npm test'.
+- Test includes a general test using the example inputs listed above.
