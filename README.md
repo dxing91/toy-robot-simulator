@@ -45,7 +45,9 @@ MOVE
 REPORT
 Output: 3,3,NORTH
 
-# Starting the Application
+# Using the Application
+- If this is your first time using the application, run 'npm install'.
 - To start the application, run 'npm start'.
-- To test application, run 'npm test'.
-- Test includes a general test using the example inputs listed above.
+- Application runs in the terminal. Simply enter commands into the terminal. Follow the prompts as necessary.
+- To test the application, run 'npm test'.
+- Test includes a general test which uses the example inputs listed above.
